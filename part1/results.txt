@@ -1,0 +1,13 @@
+Function:
+create function exp1(num1 int, num2 int) returns int return num1*num2;
+
+Query:
+select exp1(20,34);
+
+Result:
++-------------+
+| exp1(20,34) |
++-------------+
+|         680 |
++-------------+
+1 row in set (0.00 sec)
