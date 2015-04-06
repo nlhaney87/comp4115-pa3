@@ -1,0 +1,6 @@
+I could not get the make file to work right. So here are the commands to compile.
+
+seconds_conversion_udf:
+	gcc $(mysql_config --cflags) -shared -fPIC -o seconds_conversion_udf.so seconds_conversion_udf.c
+area_circle_udf:
+	gcc $(mysql_config --cflags) -shared -fPIC -o area_circle_udf.so area_circle_udf.c
